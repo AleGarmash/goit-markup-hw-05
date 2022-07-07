@@ -18,6 +18,13 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
 		/>
 
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 
@@ -86,7 +93,11 @@
 						Эффективные решения<br />
 						для вашего бизнеса
 					</h1>
-					<button type="button" class="hero-btn" data-modal-open>
+					<button
+						type="button"
+						class="hero__btn animate__animated animate__heartBeat"
+						data-modal-open
+					>
 						Заказать услугу
 					</button>
 				</div>
@@ -153,7 +164,7 @@
 			<!-- What we do  -->
 			<section class="wwd section">
 				<div class="container">
-					<h2 class="wwd-title title">Чем мы занимаемся</h2>
+					<h2 class="wwd-title title" data-aos="fade-up">Чем мы занимаемся</h2>
 					<ul class="wwd-list list">
 						<li class="wwd-item">
 							<img src="./images/box1.jpeg" alt="coding" width="370px" />
@@ -180,7 +191,7 @@
 			<!-- Our team -->
 			<section class="team section">
 				<div class="container">
-					<h2 class="title team-title">Наша команда</h2>
+					<h2 class="title team-title" data-aos="fade-up">Наша команда</h2>
 					<ul class="team-list list">
 						<li class="team-list-item">
 							<img src="./images/img1.jpeg" alt="Дизайнер" width="270" />
@@ -456,7 +467,7 @@
 
 			<section class="clients section">
 				<div class="container">
-					<h2 class="title">Постоянные клиенты</h2>
+					<h2 class="title" data-aos="fade-up">Постоянные клиенты</h2>
 					<ul class="clints-list">
 						<li class="clients-item">
 							<a href="#" aria-label="YA & CO" class="clients-link">
@@ -593,5 +604,11 @@
 		</div>
 
 		<script src="./modal.js"></script>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

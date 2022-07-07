@@ -63,9 +63,9 @@ address {
 .section {
 	padding: 94px 0;
 }
-/* Home page */
+/* ________________Home page________________ */
 
-/* Header  */
+/* ________________Header________________  */
 .header {
 	border-bottom: 1px solid #ececec;
 	position: fixed;
@@ -187,7 +187,7 @@ address {
 	fill: var(--accent-color);
 }
 
-/* подчеркивание раздела меню */
+/* ________________подчеркивание раздела меню________________ */
 
 .header-menu-item {
 	position: relative;
@@ -207,7 +207,7 @@ address {
 .header-menu-link.curent::after {
 	opacity: 1;
 }
-/* Hero section  */
+/* ________________Hero section________________  */
 .hero {
 	padding: 200px 0;
 	background-color: #2f303a;
@@ -240,7 +240,7 @@ address {
 	margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
 	margin-top: 30px;
 	font-family: inherit;
 	font-weight: 700;
@@ -264,7 +264,7 @@ address {
 	cursor: pointer;
 }
 
-/* Advantages */
+/* ________________Advantages________________ */
 .advantages-wrapper {
 	display: flex;
 	align-items: center;
@@ -331,7 +331,7 @@ address {
 	margin-bottom: 50px;
 }
 
-/* What we do  */
+/* ________________What we do________________  */
 
 .wwd {
 	padding-top: 0;
@@ -378,7 +378,7 @@ address {
 	justify-content: center;
 	bottom: 0;
 }
-/* Team */
+/* ________________Team________________ */
 
 .team {
 	background-color: var(--secondary-background-color);
@@ -580,7 +580,7 @@ address {
 	background-color: var(--accent-color);
 }
 
-/* Portfolio page  */
+/* ________________Portfolio page________________  */
 
 .filter-list {
 	display: flex;
@@ -622,7 +622,7 @@ address {
 		0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* КАРТОЧКИ ПОРТФОЛИО */
+/* ________________КАРТОЧКИ ПОРТФОЛИО________________ */
 .filter-list {
 	margin-bottom: 50px;
 }
@@ -670,7 +670,7 @@ address {
 	color: var(--text-color);
 }
 
-/* АНИМАЦИя */
+/* ________________АНИМАЦИЯ портфолио________________ */
 
 .portfolio-item-wrapp {
 	position: relative;
@@ -706,7 +706,7 @@ address {
 	transform: translateY(0px);
 }
 
-/* Modal  */
+/*________________ Modal________________  */
 .backdrop {
 	position: fixed;
 	z-index: 3;
@@ -717,12 +717,13 @@ address {
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.2);
 	pointer-events: all;
+
+	transition: all 200ms ease-out;
 }
 
 .backdrop.is-hidden {
 	opacity: 0;
 	pointer-events: none;
-	transform: translate(-100%, -50%) rotate(-280deg);
 }
 
 .modal {
