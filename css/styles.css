@@ -772,8 +772,7 @@ address {
 	fill: currentColor;
 }
 
-.btn-modal-close:hover svg {
+.btn-modal-close:hover {
 	fill: var(--accent-color);
+	border-color: var(--accent-color);
 }
-
-/*________ КОММЕНТЫ */
