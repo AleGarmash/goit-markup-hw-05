@@ -716,13 +716,10 @@ address {
 	height: 100%;
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.2);
-	pointer-events: none;
+	pointer-events: all;
 }
 
 .backdrop.is-hidden {
-	opacity: 0;
-}
-.backdrop.is-hidden .modal {
 	opacity: 0;
 	pointer-events: none;
 	transform: translate(-100%, -50%) rotate(-280deg);
