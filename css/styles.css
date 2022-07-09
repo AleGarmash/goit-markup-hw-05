@@ -231,6 +231,8 @@ address {
 }
 
 .hero-title {
+	display: flex;
+	justify-content: center;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -244,6 +246,8 @@ address {
 }
 
 .hero__btn {
+	display: inline-flex;
+
 	margin-top: 30px;
 	font-family: inherit;
 	font-weight: 700;
@@ -265,6 +269,20 @@ address {
 	border: none;
 
 	cursor: pointer;
+}
+.hero__btn::after {
+	content: "";
+	display: inline-block;
+	align-content: center;
+
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/target.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	margin: 0 auto;
 }
 
 /* ________________Advantages________________ */
