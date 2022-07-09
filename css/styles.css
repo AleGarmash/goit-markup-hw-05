@@ -248,6 +248,8 @@ address {
 .hero__btn {
 	position: relative;
 	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 
 	margin-top: 30px;
 	font-family: inherit;
@@ -274,7 +276,6 @@ address {
 }
 .hero__btn::before {
 	content: "";
-	display: inline-flex;
 
 	width: 24px;
 	height: 24px;
