@@ -274,7 +274,7 @@ address {
 }
 .hero__btn::before {
 	content: "";
-	display: inline-block;
+	display: inline-flex;
 
 	width: 24px;
 	height: 24px;
