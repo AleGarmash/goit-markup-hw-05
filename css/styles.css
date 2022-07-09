@@ -248,8 +248,6 @@ address {
 .hero__btn {
 	position: relative;
 	display: inline-flex;
-	align-items: center;
-	justify-content: center;
 
 	margin-top: 30px;
 	font-family: inherit;
@@ -276,7 +274,7 @@ address {
 }
 .hero__btn::before {
 	content: "";
-
+	display: inline-flex;
 	width: 24px;
 	height: 24px;
 	margin-left: 8px;
@@ -701,7 +699,6 @@ address {
 	cursor: pointer;
 
 	position: relative;
-	overflow: hidden;
 }
 
 .border {
@@ -753,9 +750,10 @@ address {
 }
 
 .portfolio-item-link {
-	width: 100%;
-	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	display: block;
+	/* width: 100%; */
 	text-decoration: none;
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item-link:hover,
 .portfolio-item-link:focus {
